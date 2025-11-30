@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo" href="#">My Portfolio</div>
+        <ul class="nav-links" id="navLinks">
+            <li>
+                <a href="#home">
+                    <button type="button" class="btn btn-info">Home</button>
+                </a>
+            </li>
+
+            <li>
+                <a href="#about">
+                    <button type="button" class="btn btn-info">About</button>
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    <button type="button" class="btn btn-info">Skills</button>
+                </a>
+            </li>
+            <li>
+                <a href="#projects">
+                    <button type="button" class="btn btn-info">Projects</button>
+                </a>
+            </li>
+           
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <h1>Hello, I'm <span>Amogha K A</span></h1>
+        <p>Your Tagline (Developer | Designer | Innovator)</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <section id="about" class="about-section">
+  <h2>About Me</h2>
+
+  <div class="about-wrapper">
+    <img src="amogha.jpg" class="about-photo" alt="Profile">
+
+    <div class="about-info">
+      <p>
+        Hi, I'm <span class="highlight-name">Your Name</span> — a tech enthusiast passionate about
+        building innovative and meaningful digital solutions. I enjoy solving problems,
+        learning new technologies, and turning ideas into products that create impact.
+      </p>
+
+      <div class="about-tags">
+        <span>Full-Stack Development</span>
+        <span>Tech Explorer</span>
+        <span>Product Mindset</span>
+      </div>
+
+      <a href="#projects" class="about-btn">View My Projects</a>
+    </div>
+  </div>
+</section>
+
+        
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-box">
+
+        <div class="skill">
+            <i class="fa-brands fa-html5"></i>
+            <p>HTML</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-brands fa-css3-alt"></i>
+            <p>CSS</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-brands fa-js"></i>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-solid fa-code"></i>
+            <p>C Programming</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-solid fa-film"></i>
+            <p>Video Editing</p>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project Title 1</h3>
+            <p>Short project description goes here.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project Title 2</h3>
+            <p>Short project description goes here.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+    <h2>Contact</h2>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/_amogha_rao_?igsh=MWZjZHBvd2c4Y3A1cg=="><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/AmoghaKA"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:yourmail@example.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+</section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Your Name — All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
